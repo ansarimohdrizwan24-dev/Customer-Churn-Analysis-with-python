@@ -1,4 +1,3 @@
-
 # Customer Churn Analysis (Python + SQLite)
 
 Which subscription customers cancel, and what do they have in common? This project reads a small SQLite database, cleans and merges three tables with Pandas, calculates churn KPIs, and shows the patterns in charts.
@@ -43,20 +42,20 @@ Python, Pandas, NumPy, Matplotlib, Seaborn, SQLite (`sqlite3`), Jupyter Notebook
 
 ## Screenshots
 ### Monthly churn trend
-![Monthly churn trend](images/01_churn_trend.png)
+![Monthly churn trend](01_churn_trend.png)
 
 ### Churn by plan
-![Churn by plan](images/02_churn_by_plan.png)
+![Churn by plan](02_churn_by_plan.png)
 
 ### Churn by state
-![Churn by state](images/03_churn_by_state.png)
+![Churn by state](03_churn_by_state.png)
 
 ### Correlation heatmap
-![Correlation heatmap](images/04_heatmap.png)
+![Correlation heatmap](04_heatmap.png)
 
 How the columns were encoded before the heatmap (ordered codes, not alphabetical, so the correlations make sense):
 
-![Encoding code](images/05_encoding_code.png)
+![Encoding code](05_encoding_code.png)
 
 ## Findings
 - Basic plan customers churn the most, and Premium customers the least.
@@ -86,6 +85,3 @@ How the columns were encoded before the heatmap (ordered codes, not alphabetical
 - `Churn_Analysis_project_fixed.ipynb` : the full analysis
 - `customer_churn.db` : the database
 - `images/` : screenshots used in this README
-
-## Credit
-Built while following a tutorial by Rishabh Mishra, then extended with my own fixes, written findings and recommendations.
